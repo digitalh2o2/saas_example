@@ -29,11 +29,6 @@ h1, h2, h3 {
  border: none;
 }
 
-.navbar-brand {
- font-family: 'Open Sans', sans-serif;
- font-weight: 800;
-}
-
 
 .navbar, .home-callout {
  //Gradient provided by @_ighosh at uigradients.com
@@ -48,6 +43,17 @@ h1, h2, h3 {
  &:hover {
    color: white;
    opacity: 0.75;
+ }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+ background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+ border: 2px solid white;
+ &:hover, &:focus {
+  background-color: #2980b9;
  }
 }
 
